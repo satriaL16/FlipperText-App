@@ -8,7 +8,7 @@ import PalindromeCard from './components/PalindromeCard.jsx';
 import LandingPageInfo from './components/LandingPageInfo.jsx';
 import ToastNotification from './components/ToastNotification.jsx';
 import Footer from './components/Footer.jsx';
-import './app.css';
+import './App.css';
 
 export default function App() {
     // State Management
