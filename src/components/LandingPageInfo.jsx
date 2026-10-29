@@ -7,7 +7,7 @@ export default function LandingPageInfo() {
                     {/* Feature Highlight / Privacy Alert */}
                     <div className="bg-teal-50 border border-teal-100 rounded-2xl p-6 flex flex-col sm:flex-row items-start sm:items-center gap-4">
                         <div className="bg-teal-100 text-teal-700 p-3 rounded-full flex-shrink-0">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
                             </svg>
                         </div>
@@ -46,21 +46,21 @@ export default function LandingPageInfo() {
                         <h2 className="text-xl font-bold text-slate-800 mb-6">Siapa yang Membutuhkan Alat Ini?</h2>
                         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                             <div className="border border-slate-200 p-5 rounded-2xl hover:border-teal-300 transition-colors">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="w-7 h-7 text-teal-600 mb-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" className="w-7 h-7 text-teal-600 mb-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
                                 </svg>
                                 <h4 className="font-bold text-slate-800 text-sm mb-2">Programmer</h4>
                                 <p className="text-xs text-slate-500 leading-relaxed">Sangat berguna untuk menguji logika manipulasi string, struktur data, atau sekadar membuat data dummy (*test case*) terbalik.</p>
                             </div>
                             <div className="border border-slate-200 p-5 rounded-2xl hover:border-teal-300 transition-colors">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="w-7 h-7 text-teal-600 mb-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" className="w-7 h-7 text-teal-600 mb-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
                                 </svg>
                                 <h4 className="font-bold text-slate-800 text-sm mb-2">Kreator Konten</h4>
                                 <p className="text-xs text-slate-500 leading-relaxed">Gunakan untuk membuat variasi teks unik, teka-teki kata di media sosial, atau menyembunyikan pesan rahasia di caption.</p>
                             </div>
                             <div className="border border-slate-200 p-5 rounded-2xl hover:border-teal-300 transition-colors">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="w-7 h-7 text-teal-600 mb-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" className="w-7 h-7 text-teal-600 mb-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                                 </svg>
                                 <h4 className="font-bold text-slate-800 text-sm mb-2">Guru & Siswa Bahasa</h4>
@@ -77,7 +77,7 @@ export default function LandingPageInfo() {
                                 <summary className="flex cursor-pointer items-center justify-between gap-1.5 p-4 text-slate-800 font-medium">
                                     <h3 className="text-sm">Apa itu Palindrom?</h3>
                                     <span className="shrink-0 transition duration-300 group-open:-rotate-180 text-slate-400">
-                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                        <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                                             <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                                         </svg>
                                     </span>
@@ -91,7 +91,7 @@ export default function LandingPageInfo() {
                                 <summary className="flex cursor-pointer items-center justify-between gap-1.5 p-4 text-slate-800 font-medium">
                                     <h3 className="text-sm">Apakah ada batasan jumlah karakter?</h3>
                                     <span className="shrink-0 transition duration-300 group-open:-rotate-180 text-slate-400">
-                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                        <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                                             <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                                         </svg>
                                     </span>
@@ -105,7 +105,7 @@ export default function LandingPageInfo() {
                                 <summary className="flex cursor-pointer items-center justify-between gap-1.5 p-4 text-slate-800 font-medium">
                                     <h3 className="text-sm">Bisakah aplikasi ini dipakai secara offline (tanpa internet)?</h3>
                                     <span className="shrink-0 transition duration-300 group-open:-rotate-180 text-slate-400">
-                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                        <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                                             <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                                         </svg>
                                     </span>
