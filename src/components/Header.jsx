@@ -11,7 +11,7 @@ export default function Header() {
                         </div>
                         <div>
                             <h1 className="text-xl font-bold tracking-tight text-slate-800 flex items-center gap-2">
-                                Flipper.txt <span className="bg-slate-100 text-slate-600 border border-slate-200 text-[10px] uppercase px-1.5 py-0.5 rounded font-semibold tracking-wider">Alat Utilitas</span>
+                                Flipper text APP <span className="bg-slate-100 text-slate-600 border border-slate-200 text-[10px] uppercase px-1.5 py-0.5 rounded font-semibold tracking-wider">Alat Utilitas</span>
                             </h1>
                         </div>
                     </div>
